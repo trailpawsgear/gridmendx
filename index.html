@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GridMendX — Fix messy spreadsheets in one drop</title>
-<meta name="description" content="Upload a CSV or Excel file exported from somewhere else, fix merged cells, mixed date formats and duplicate rows, download it clean.">
-<link rel="canonical" href="https://gridmendx.com/">
+<title>Free Spreadsheet Cleaner — Fix CSV & Excel Data Errors | GridMendX</title>
+<meta name="description" content="Free spreadsheet cleaner: upload a CSV or Excel file, fix merged cells, mixed date formats, stray spaces and duplicate rows, then download it clean. No sign-up, nothing uploaded to a server.">
+<link rel="canonical" href="https://trailpawsgear.github.io/gridmendx/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="GridMendX">
-<meta property="og:url" content="https://gridmendx.com/">
-<meta property="og:title" content="GridMendX — Fix messy spreadsheets in one drop">
-<meta property="og:description" content="Upload a CSV or Excel file exported from somewhere else, fix merged cells, mixed date formats and duplicate rows, download it clean.">
-<meta property="og:image" content="https://gridmendx.com/og-image.png">
+<meta property="og:url" content="https://trailpawsgear.github.io/gridmendx/">
+<meta property="og:title" content="Free Spreadsheet Cleaner — Fix CSV & Excel Data Errors | GridMendX">
+<meta property="og:description" content="Free spreadsheet cleaner: upload a CSV or Excel file, fix merged cells, mixed date formats, stray spaces and duplicate rows, then download it clean. No sign-up, nothing uploaded to a server.">
+<meta property="og:image" content="https://trailpawsgear.github.io/gridmendx/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="GridMendX — Fix messy spreadsheets in one drop">
-<meta name="twitter:description" content="Upload a CSV or Excel file exported from somewhere else, fix merged cells, mixed date formats and duplicate rows, download it clean.">
+<meta name="twitter:title" content="Free Spreadsheet Cleaner — Fix CSV & Excel Data Errors | GridMendX">
+<meta name="twitter:description" content="Free spreadsheet cleaner: upload a CSV or Excel file, fix merged cells, mixed date formats, stray spaces and duplicate rows, then download it clean. No sign-up, nothing uploaded to a server.">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <style>
   :root{
@@ -25,7 +25,7 @@
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
   .wrap{max-width:880px;margin:0 auto;padding:32px 16px 80px}
   header{text-align:center;margin-bottom:24px}
-  h1{font-size:1.6rem;margin:0 0 6px}
+h1,h2.tool-title{font-size:1.6rem;margin:0 0 6px}
   header p{color:var(--muted);margin:0;font-size:.95rem;max-width:560px;margin:0 auto}
   .drop{border:2px dashed var(--border);border-radius:16px;padding:40px 20px;text-align:center;margin:24px 0;cursor:pointer}
   .drop.drag{border-color:var(--accent)}
@@ -68,7 +68,7 @@
 <section class="hero">
   <div class="hero-eyebrow">SPREADSHEET FIXES</div>
   <h1>That spreadsheet someone exported is a mess. <span>Give it 90 seconds.</span></h1>
-  <p class="sub">Merged cells, three date formats on the same column, duplicate rows. Drop it in, pick what to fix, see it clean before you download anything.</p>
+  <p class="sub">Free spreadsheet cleaner: merged cells, three date formats on the same column, duplicate rows. Drop it in, pick what to fix, see it clean before you download anything.</p>
   <div class="mendgrid">
     <div class="minigrid messy"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
     <span style="color:var(--muted)">→</span>
@@ -79,8 +79,8 @@
 <div class="wrap">
   <div id="tool">
   <header>
-    <h1>GridMendX</h1>
-    <p>Drop in a CSV or Excel file exported from somewhere else. Pick what to fix, see the result before you download it. Nothing leaves your browser.</p>
+    <h2 class="tool-title">GridMendX</h2>
+    <p>Free spreadsheet cleaner: drop in a CSV or Excel file exported from somewhere else, pick what to fix (merged cells, mixed date formats, duplicate rows), and see the result before you download it. Nothing leaves your browser.</p>
   </header>
 
   <div class="drop" id="dropZone">
@@ -112,7 +112,7 @@
 
   <footer>
     Parsing and cleaning happen locally with your browser's own JavaScript engine, no upload, no account.
-    <br><a href="https://gridmendx.com">gridmendx.com</a>
+    <br><a href="https://trailpawsgear.github.io/gridmendx/">trailpawsgear.github.io/gridmendx</a>
   </footer>
 </div>
 
